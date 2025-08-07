@@ -8,7 +8,7 @@ Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate compe
 
 ## 📖 Table of Contents
 
-- [About Me](#💡-about-me)  
+- [About Me](#about-me)  
 - [Demo](#🚀-demo)  
 - [Features](#✨-features)  
 - [Tech Stack](#🛠-tech-stack)  
