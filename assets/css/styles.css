@@ -203,12 +203,12 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--title-color);
+  color: var(--first-color);
   font-weight: var(--font-medium);
 }
 
 .nav__logo:hover {
-  color: var(--first-color);
+  color: var(--first-color-alt);
 }
 
 .nav__toggle {
@@ -1315,6 +1315,7 @@ body.dark-theme .project__bg {
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
+
   .project__data {
     padding-top: 0.8rem;
   }
