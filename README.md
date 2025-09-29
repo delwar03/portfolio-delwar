@@ -48,7 +48,7 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app/)
 
 | Category        | Technologies                          |
 | --------------- | --------------------------------------|
-| **Frontend**    | HTML, CSS, JavaScript          |
+| **Frontend**    | HTML, CSS, JavaScript                 |
 | **Hosting**     | Vercel                                |
 | **Analytics**   | Google Analytics                      |
 | **Forms**       | EmailJS                               |
