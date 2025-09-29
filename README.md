@@ -40,7 +40,7 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app/)
 - **Responsive design**: Mobile-first, works flawlessly on all devices  
 - **Dark/Light mode** toggle  
 - **Project showcase** with interactive cards  
-- **Contact form** powered by EmailJS  
+- **Contact form** powered by **EmailJS**  
 
 ---
 
