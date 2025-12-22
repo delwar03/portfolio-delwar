@@ -208,7 +208,7 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--first-color);
+  color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
@@ -395,6 +395,13 @@ img {
   font-weight: var(--font-medium);
 }
 
+button.button {
+  border: none;
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
 .button:hover {
   background-color: var(--first-color-alt);
 }
@@ -566,6 +573,10 @@ body.dark-theme .project__bg {
   background-color: var(--first-color-second);
 }
 
+body.dark-theme .project__container {
+  background-color: var(--first-color-second);
+}
+
 .skills__html {
   width: 90%;
 }
@@ -617,16 +628,36 @@ body.dark-theme .project__bg {
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
+  opacity: 0;
+  transition: height 0.4s ease, opacity 0.3s ease;
 }
 
 .skills__open .skills__list {
   height: max-content;
   margin-bottom: var(--mb-2-5);
+  opacity: 1;
+  animation: fadeInDown 0.4s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .skills__open .skills__arrow {
-  transform: translateY(0);
-  transform: rotate(-180deg);
+  transform: translateY(0) rotate(-180deg);
+  transition: transform 0.4s ease;
+}
+
+.skills__arrow {
+  transition: transform 0.4s ease;
 }
 
 /*==================== QUALIFICATION ====================*/
@@ -709,10 +740,30 @@ body.dark-theme .project__bg {
 
 .qualification [data-content] {
   display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 .qualification__active[data-content] {
   display: block;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.qualification__button {
+  transition: color 0.3s ease;
 }
 
 .qualification__button.qualification__active {
@@ -1055,6 +1106,27 @@ body.dark-theme .project__bg {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+/* Dark mode input text fix */
+body.dark-theme .contact__input {
+  color: var(--title-color);
+}
+
+body.dark-theme .contact__input::placeholder {
+  color: var(--text-color-light);
+  opacity: 0.6;
+}
+
+/* Fix autofill background in dark mode */
+body.dark-theme .contact__input:-webkit-autofill,
+body.dark-theme .contact__input:-webkit-autofill:hover,
+body.dark-theme .contact__input:-webkit-autofill:focus,
+body.dark-theme .contact__input:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--title-color) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--input-color) inset !important;
+  box-shadow: 0 0 0 1000px var(--input-color) inset !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /*==================== FOOTER ====================*/
@@ -1400,6 +1472,16 @@ body.dark-theme .project__bg {
     padding: 3rem 2.5rem 0;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
+  }
+
+  /* Ensure dark mode also gets rounded container */
+  body.dark-theme .project__bg {
+    background: none;
+  }
+
+  body.dark-theme .project__container {
+    background-color: var(--first-color-second);
+    border-radius: 1rem;
   }
 
   .project__data {

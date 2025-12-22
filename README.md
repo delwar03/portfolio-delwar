@@ -1,6 +1,6 @@
 # MD. Delwar Jahan – Portfolio
 
-[![Portfolio Screenshot](./assets/preview/demo.png)](https://portfolio-delwar.vercel.app/)
+[![Portfolio Screenshot](./assets/preview/demo.png)](https://portfolio-delwar.vercel.app)
 
 Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate competitive programmer and web developer aiming to become a Grandmaster on Codeforces. Here you can explore my projects, skills, and ways to connect with me.
 
@@ -8,15 +8,15 @@ Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate compe
 
 ## 📖 Table of Contents
 
-- [About Me](#💡-about-me)  
-- [Demo](#🚀-demo)  
-- [Features](#✨-features)  
-- [Tech Stack](#🛠-tech-stack)  
-- [Usage](#📝-usage--navigation)  
-- [Roadmap](#📈-roadmap--future-enhancements)  
-- [Contributing](#🤗-contributing--community)  
-- [License](#📜-license)  
-- [Contact](#📬-stay-connected)  
+- [About Me](#about-me)
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Usage](#usage--navigation)
+- [Roadmap](#roadmap--future-enhancements)
+- [Contributing](#contributing--community)
+- [License](#license)
+- [Contact](#stay-connected)
 
 ---
 
@@ -31,16 +31,16 @@ I’m **MD. Delwar Jahan**, a **Expert** on Codeforces and participated in **10+
 
 ## 🚀 Demo
 
-Live site: [Smash it](https://portfolio-delwar.vercel.app/)
+Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ---
 
 ## ✨ Features
 
-- **Responsive design**: Mobile-first, works flawlessly on all devices  
-- **Dark/Light mode** toggle  
-- **Project showcase** with interactive cards  
-- **Contact form** powered by **EmailJS**  
+- **Responsive design**: Mobile-first, works flawlessly on all devices
+- **Dark/Light mode** toggle
+- **Project showcase** with interactive cards
+- **Contact form** powered by **EmailJS**
 
 ---
 
@@ -106,14 +106,14 @@ See [LICENSE](./LICENSE) for the complete terms and conditions.
 
 ## 📬 Stay Connected
 
-- ✉️ **Email**: delwarjahan28@gmail.com  
-- 💼 **LinkedIn**: [Smash it](https://www.linkedin.com/in/delwar-jahan-957067251/)  
-- 🐦 **Twitter**: [Smash it](https://x.com/delwar03)  
-- 👨‍💻 **CodeForces**: [Smash it](https://codeforces.com/profile/delwar_03_)  
-- 🗡️ **CodeChef**: [Smash it](https://www.codechef.com/users/delwar03)  
-- 🎯 **AtCoder**: [Smash it](https://atcoder.jp/users/delwar_03_)  
-- 🏠 **Website**: [Demo](https://portfolio-delwar.vercel.app/)
+- ✉️ **Email**: [Smash it](mailto:delwarjahan28@gmail.com)
+- 💼 **LinkedIn**: [Smash it](https://www.linkedin.com/in/delwar-jahan-957067251)
+- 🐦 **Twitter**: [Smash it](https://x.com/delwar03)
+- 👨‍💻 **CodeForces**: [Smash it](https://codeforces.com/profile/delwar_03_)
+- 🗡️ **CodeChef**: [Smash it](https://www.codechef.com/users/delwar03)
+- 🎯 **AtCoder**: [Smash it](https://atcoder.jp/users/delwar_03_)
+- 🏠 **Website**: [Demo](https://portfolio-delwar.vercel.app)
 
 ---
 
-> “Strive not to be a success, but rather to be of value.” – Albert Einstein  
+> “Strive not to be a success, but rather to be of value.” – Albert Einstein

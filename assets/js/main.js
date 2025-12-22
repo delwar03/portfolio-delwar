@@ -71,9 +71,9 @@ tabs.forEach(tab => {
 })
 
 /*==================== SERVICES MODAL ====================*/
-const modalViews = document.querySelectorAll('.services__modal'),
-    modalBtns = document.querySelectorAll('.services__button'),
-    modalCloses = document.querySelectorAll('.services__modal-close')
+const modalViews = document.querySelectorAll('.services__modal')
+const modalBtns = document.querySelectorAll('.services__button')
+const modalCloses = document.querySelectorAll('.services__modal-close')
 
 let modal = function (modalClick) {
     modalViews[modalClick].classList.add('active-modal')
@@ -90,6 +90,14 @@ modalCloses.forEach((modalClose) => {
         modalViews.forEach((modalView) => {
             modalView.classList.remove('active-modal')
         })
+    })
+})
+
+modalViews.forEach((modalView) => {
+    modalView.addEventListener('click', (e) => {
+        if (e.target === modalView) {
+            modalView.classList.remove('active-modal')
+        }
     })
 })
 
@@ -194,3 +202,89 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== EMAIL JS ====================*/
+if (typeof window.EMAIL_CONFIG !== 'undefined') {
+    emailjs.init(window.EMAIL_CONFIG.EMAILJS_PUBLIC_KEY);
+} else {
+    console.error('EmailJS configuration not found. Please create config.js file.');
+}
+
+const contactForm = document.getElementById('contact-form');
+
+const sendEmail = (e) => {
+    e.preventDefault();
+
+    // Check if config is available
+    if (typeof window.EMAIL_CONFIG === 'undefined') {
+        Swal.fire({
+            icon: 'error',
+            title: 'Configuration Error',
+            text: 'Email service is not configured properly. Please try again later.',
+            confirmButtonColor: '#667eea',
+            background: document.body.classList.contains('dark-theme') ? '#1f2937' : '#ffffff',
+            color: document.body.classList.contains('dark-theme') ? '#ffffff' : '#1a202c'
+        });
+        return;
+    }
+
+    // Show loading state
+    Swal.fire({
+        title: 'Sending Message...',
+        html: 'Please wait while we send your message',
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        didOpen: () => {
+            Swal.showLoading();
+        },
+        background: document.body.classList.contains('dark-theme') ? '#1f2937' : '#ffffff',
+        color: document.body.classList.contains('dark-theme') ? '#ffffff' : '#1a202c'
+    });
+
+    // Send email
+    emailjs.sendForm(
+        window.EMAIL_CONFIG.EMAILJS_SERVICE_ID,
+        window.EMAIL_CONFIG.EMAILJS_TEMPLATE_ID,
+        '#contact-form'
+    )
+        .then(() => {
+            // Success alert
+            Swal.fire({
+                icon: 'success',
+                title: 'Message Sent!',
+                text: 'Thank you for reaching out! I\'ll get back to you soon.',
+                confirmButtonText: 'Great!',
+                confirmButtonColor: '#667eea',
+                timer: 3000,
+                timerProgressBar: true,
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                },
+                background: document.body.classList.contains('dark-theme') ? '#1f2937' : '#ffffff',
+                color: document.body.classList.contains('dark-theme') ? '#ffffff' : '#1a202c'
+            });
+
+            // Clear form
+            contactForm.reset();
+        })
+        .catch((error) => {
+            // Error alert
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong! Please try again or contact me directly.',
+                footer: '<a href="mailto:delwarjahan28@gmail.com">Click here to email me directly</a>',
+                confirmButtonText: 'Try Again',
+                confirmButtonColor: '#667eea',
+                background: document.body.classList.contains('dark-theme') ? '#1f2937' : '#ffffff',
+                color: document.body.classList.contains('dark-theme') ? '#ffffff' : '#1a202c'
+            });
+        });
+};
+
+if (contactForm) {
+    contactForm.addEventListener('submit', sendEmail);
+}
