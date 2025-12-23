@@ -1100,12 +1100,23 @@ body.dark-theme .project__container {
 .contact__input {
   width: 100%;
   background-color: var(--input-color);
-  color: var(--text-color);
+  color: var(--title-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+/* Fix autofill background and text color in light mode */
+.contact__input:-webkit-autofill,
+.contact__input:-webkit-autofill:hover,
+.contact__input:-webkit-autofill:focus,
+.contact__input:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--title-color) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--input-color) inset !important;
+  box-shadow: 0 0 0 1000px var(--input-color) inset !important;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /* Dark mode input text fix */
