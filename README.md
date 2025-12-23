@@ -20,7 +20,7 @@ Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate compe
 
 ---
 
-## 💡 About Me
+## About Me
 
 I’m **MD. Delwar Jahan**, a **Expert** on Codeforces and participated in **10+** Inter University Programming Contest (IUPC).
 - 🔭 I’m currently building and refining my portfolio website.  
@@ -29,13 +29,13 @@ I’m **MD. Delwar Jahan**, a **Expert** on Codeforces and participated in **10+
 
 ---
 
-## 🚀 Demo
+## Demo
 
 Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Responsive design**: Mobile-first, works flawlessly on all devices
 - **Dark/Light mode** toggle
@@ -44,7 +44,7 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Category        | Technologies                          |
 | --------------- | --------------------------------------|
@@ -55,7 +55,7 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ---
 
-## 📝 Usage & Navigation
+## Usage & Navigation
 
 1. **Homepage**  
    Overview of who I am, highlighted skills, and a featured project carousel.  
@@ -84,27 +84,27 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ---
 
-## 📈 Roadmap & Future Enhancements
+## Roadmap & Future Enhancements
 
   - 🔄 Add **automated theme synchronization** with user OS preferences.  
   - 📊 Embed a **dynamic stats widget** showing live Codeforces contest participation and rankings.  
 
 ---
 
-## 🤗 Contributing & Community
+## Contributing & Community
 
 I welcome your ideas, bug reports, and pull requests! To help this project grow
 
 ---
 
-## 📜 License
+## License
 
 This project is open source under the **Apache 2.0 License**.  
 See [LICENSE](./LICENSE) for the complete terms and conditions.
 
 ---
 
-## 📬 Stay Connected
+## Stay Connected
 
 - ✉️ **Email**: [Smash it](mailto:delwarjahan28@gmail.com)
 - 💼 **LinkedIn**: [Smash it](https://www.linkedin.com/in/delwar-jahan-957067251)
