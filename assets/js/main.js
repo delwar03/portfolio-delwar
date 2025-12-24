@@ -49,7 +49,7 @@ function closeMenuOnScroll() {
     const navMenu = document.getElementById('nav-menu')
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (navMenu.classList.contains('show-menu') && Math.abs(scrollTop - lastScrollTop) > 20) {
+    if (navMenu.classList.contains('show-menu') && Math.abs(scrollTop - lastScrollTop) > 10) {
         navMenu.classList.remove('show-menu')
     }
 
