@@ -29,6 +29,35 @@ function linkAction() {
 }
 navLink.forEach(el => el.addEventListener('click', linkAction))
 
+/*==================== CLOSE MENU ON OUTSIDE CLICK ====================*/
+function closeMenuOnOutsideClick(e) {
+    const navMenu = document.getElementById('nav-menu')
+    const navToggle = document.getElementById('nav-toggle')
+
+    if (navMenu.classList.contains('show-menu') &&
+        !navMenu.contains(e.target) &&
+        !navToggle.contains(e.target)) {
+        navMenu.classList.remove('show-menu')
+    }
+}
+
+document.addEventListener('click', closeMenuOnOutsideClick)
+
+/*==================== CLOSE MENU ON SCROLL ====================*/
+let lastScrollTop = 0;
+function closeMenuOnScroll() {
+    const navMenu = document.getElementById('nav-menu')
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (navMenu.classList.contains('show-menu') && Math.abs(scrollTop - lastScrollTop) > 20) {
+        navMenu.classList.remove('show-menu')
+    }
+
+    lastScrollTop = scrollTop;
+}
+
+window.addEventListener('scroll', closeMenuOnScroll)
+
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
     skillsHeader = document.querySelectorAll('.skills__header')
