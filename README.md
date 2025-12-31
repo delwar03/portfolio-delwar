@@ -2,7 +2,7 @@
 
 [![Portfolio Screenshot](./assets/preview/demo.png)](https://portfolio-delwar.vercel.app)
 
-Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate competitive programmer and web developer aiming to become a Grandmaster on Codeforces. Here you can explore my projects, skills, and ways to connect with me.
+Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, I just love solving problems and tryout different stuff. Here you can explore some of my **Projects**, **Skills**, **Qualifications**, and ways to connect with me. cool!
 
 ---
 
@@ -17,15 +17,16 @@ Welcome to my personal portfolio! I’m **MD. Delwar Jahan**, a passionate compe
 - [Contributing](#contributing--community)
 - [License](#license)
 - [Contact](#stay-connected)
+- [Contributors](#contributors)
 
 ---
 
 ## About Me
 
-I’m **MD. Delwar Jahan**, a **Expert** on Codeforces and participated in **10+** Inter University Programming Contest (IUPC).
-- 🔭 I’m currently building and refining my portfolio website.  
-- 🌱 I’m learning advanced algorithms: Dynamic Programming on strings, Fast Walsh–Hadamard Transform, and more.  
-- 🖥️ I love solving Adhoc problems and sharing knowledge through tutorials and blog posts.
+I’m **MD. Delwar Jahan**, an **Expert** at Codeforces and participated in **10+** Inter University Programming Contest (**IUPC**) and yeah did some cool projects :)
+- 🔭 I’m currently building and refining my portfolio website.
+- 🌱 I’m learning some advanced algorithms (_just for fun!_): Dynamic Programming on strings, Fast Walsh–Hadamard Transform, and more...
+- 🖥️ I love solving logical problems and sharing knowledge through tutorials and blog posts.
 
 ---
 
@@ -57,37 +58,45 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app)
 
 ## Usage & Navigation
 
-1. **Homepage**  
-   Overview of who I am, highlighted skills, and a featured project carousel.  
+1. **Homepage**
+   _Overview of who I am, highlighted skills, and a featured project carousel._  
+   
    ![Home Page](./assets/preview/preview1.png)
-2. **About**  
-    Dive into my background, education, and problem solving stats.  
+2. **About**
+    _Dive into my background, education, and problem solving stats._
+    
     ![About Page](./assets/preview/preview2.png)
-3. **Skills**  
-    Dive into my skills, what am I good at and some Online Judges stats that I used to solve problems.  
+3. **Skills**
+    _Dive into my skills, what am I good at and some Online Judges stats that I used to solve problems._
+    
     ![About Page](./assets/preview/preview3.png)
-4. **Qualifications**  
-    My qualifications, where I studied and some of my achievements as well.  
+4. **Qualifications**
+    _My qualifications, where I studied and some of my achievements as well._
+    
     ![About Page](./assets/preview/preview4.png)
-5. **Services**  
-    Services that I provide, things that I'd love to do. 
+5. **Services**
+    _Services that I provide, things that I'd love to do._
+    
     ![About Page](./assets/preview/preview5.png)
-6. **Projects**  
-    Some of the projects I've made in undergrad life. 
+6. **Projects**
+    _Some of the projects I've made in undergrad life._
+    
     ![About Page](./assets/preview/preview6.png)
-7. **Compliments**  
-    In my undergrad journey I've recieved plenty of compliments from my professors, here are some of them. 
+7. **Compliments**
+    _In my undergrad journey I've recieved plenty of compliments from my professors, here are some of them._
+    
     ![About Page](./assets/preview/preview8.png)
-8. **Contact Me**  
-    If you're interested to work with me, feel free to reach out. 
+8. **Contact Me**
+    _If you're interested to work with me, feel free to reach out._
+    
     ![About Page](./assets/preview/preview9.png)
 
 ---
 
 ## Roadmap & Future Enhancements
 
-  - 🔄 Add **automated theme synchronization** with user OS preferences.  
-  - 📊 Embed a **dynamic stats widget** showing live Codeforces contest participation and rankings.  
+  - 🔄 Add **automated theme synchronization** with user OS preferences.
+  - 📊 Embed a **dynamic stats widget** showing live Codeforces contest participation and rankings.
 
 ---
 
@@ -99,7 +108,7 @@ I welcome your ideas, bug reports, and pull requests! To help this project grow
 
 ## License
 
-This project is open source under the **Apache 2.0 License**.  
+This project is open source under the **Apache 2.0 License**.
 See [LICENSE](./LICENSE) for the complete terms and conditions.
 
 ---
@@ -113,6 +122,26 @@ See [LICENSE](./LICENSE) for the complete terms and conditions.
 - 🗡️ **CodeChef**: [Smash it](https://www.codechef.com/users/delwar03)
 - 🎯 **AtCoder**: [Smash it](https://atcoder.jp/users/delwar_03_)
 - 🏠 **Website**: [Demo](https://portfolio-delwar.vercel.app)
+
+---
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/delwar03">
+        <img src="https://github.com/delwar03.png" width="100px;" alt="MD. Delwar Jahan"/>
+        <br />
+        <sub><b>MD. Delwar Jahan</b></sub>
+      </a>
+      <br />
+      <sub>Creator & Maintainer</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
