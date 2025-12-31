@@ -51,7 +51,7 @@ Live site: [Smash it](https://portfolio-delwar.vercel.app)
 | --------------- | --------------------------------------|
 | **Frontend**    | HTML, CSS, JavaScript                 |
 | **Hosting**     | Vercel                                |
-| **Analytics**   | Google Analytics                      |
+| **Analytics**   | Google Analytics 4 (GA4)              |
 | **Forms**       | EmailJS                               |
 
 ---
@@ -133,7 +133,7 @@ Thanks to the following people who have contributed to this project:
   <tr>
     <td align="center">
       <a href="https://github.com/delwar03">
-        <img src="https://github.com/delwar03.png" width="100px;" alt="MD. Delwar Jahan"/>
+        <img src="https://github.com/delwar03.png" width="100px;" alt="delwar03's picture"/>
         <br />
         <sub><b>MD. Delwar Jahan</b></sub>
       </a>
