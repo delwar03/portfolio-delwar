@@ -116,7 +116,7 @@ See [LICENSE](./LICENSE) for the complete terms and conditions.
 ## Stay Connected
 
 - ✉️ **Email**: [Smash it](mailto:delwarjahan28@gmail.com)
-- 💼 **LinkedIn**: [Smash it](https://www.linkedin.com/in/delwar-jahan-957067251)
+- 💼 **LinkedIn**: [Smash it](https://www.linkedin.com/in/delwar03)
 - 🐦 **Twitter**: [Smash it](https://x.com/delwar03)
 - 👨‍💻 **CodeForces**: [Smash it](https://codeforces.com/profile/delwar_03_)
 - 🗡️ **CodeChef**: [Smash it](https://www.codechef.com/users/delwar03)
