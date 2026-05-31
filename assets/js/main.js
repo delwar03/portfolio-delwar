@@ -1,7 +1,8 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
-const navMenu = document.getElementById("nav-menu"),
-    navToggle = document.getElementById("nav-toggle"),
-    navClose = document.getElementById("nav-close")
+const navMenu = document.getElementById("nav-menu")
+const navToggle = document.getElementById("nav-toggle")
+const navClose = document.getElementById("nav-close")
+const footerYear = document.getElementById("footer-year")
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -317,3 +318,6 @@ const sendEmail = (e) => {
 if (contactForm) {
     contactForm.addEventListener('submit', sendEmail);
 }
+
+/*==================== FOOTER YEAR ====================*/
+footerYear.innerHTML = new Date().getFullYear()

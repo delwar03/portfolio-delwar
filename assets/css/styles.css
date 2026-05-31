@@ -1051,6 +1051,14 @@ body.dark-theme .project__container {
   color: var(--first-color);
 }
 
+.testimonial__container .swiper-slide {
+  cursor: grab;
+}
+
+.testimonial__container .swiper-slide:active {
+  cursor: grabbing;
+}
+
 
 /* Ensure testimonial swiper pagination is always visible and centered */
 .swiper-container .swiper-pagination-testimonial {
@@ -1547,6 +1555,17 @@ body.dark-theme .contact__input:-webkit-autofill:active {
 
   .footer__copy {
     margin-top: 4.5rem;
+  }
+}
+
+/* Fix for 845px viewport - navbar items too cramped */
+@media screen and (max-width: 845px) {
+  .nav__list {
+    column-gap: 1.5rem;
+  }
+
+  .nav {
+    column-gap: 0.5rem;
   }
 }
 
